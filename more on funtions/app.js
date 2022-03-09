@@ -50,3 +50,16 @@ const person5 = new Person(21, "Michał");
 console.log(person3);
 console.dir(person4);
 console.error(person5);
+
+
+const myFunction = function myFunc(a, b) {
+    console.log(a + b);
+}
+
+myFunction(1, 2)
+
+console.dir(myFunction);
+
+const myFunction = (a, b) => {
+    console.log(a + b);
+}
